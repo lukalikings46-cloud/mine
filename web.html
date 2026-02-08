@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Heavy equipment for mining operations">
+        <title>Mining Equipment Solutions</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segeo UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            body {
+                background-color: #1a1a2e;
+                color: #e6e6e6;
+                line-height: 1.6;
+            }
+
+            header {
+                background-color: #0d0d1a;
+                padding: 1rem 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid #ff9900;
+            }
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .logo i {
+                color: #ff9900;
+                font-size: 2rem;
+            }
+
+            nav ul {
+                display: flex;
+                list-style: none;
+                gap: 1.5rem;
+            }
+
+            nav a {
+                color: #e6e6e6;
+                text-decoration: none;
+                font-weight: 600;
+                transition: color 0.3s;
+            }
+
+            nav a:hover {
+                color: #ff9900;
+            }
+
+            .hero {
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80');
+                background-size: cover;
+                background-position: center;
+                padding: 4rem 2rem;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+                margin-bottom: 1rem;
+                color: #ff9900;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+                max-width: 800px;
+                margin: 0 auto 2rem;
+            }
+
+            .btn {
+                display: inline-block;
+                background-color: #ff9900;
+                color: #0d0d1a;
+                padding: 0.8rem 1.8rem;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 4px;
+                transition: background-color 0.3s;
+            }
+
+            .btn:hover {
+                background-color: #e68a00;
+            }
+
+            .equipment {
+                padding: 3rem 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .equipment h2 {
+                text-align: center;
+                margin-bottom: 2.5rem;
+                color: #ff9900;
+                font-size: 2.2rem;
+            }
+
+            .equipment-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
+                gap: 2rem;
+            }
+
+            .equipment-card {
+                background-color: #252547;
+                border-radius: 8px;
+                overflow: hidden;
+                transition: transform 0.3s;
+            }
+
+            .equipment-card:hover {
+                transform: translate(-10px);
+            }
+
+            .equipment-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-bottom: 3px solid #ff9900;
+            }
+
+            .equipment-card h3 {
+                padding: 1rem 1rem 0.5rem;
+                color: #ffcc80;
+            }
+
+            .equipment-card p {
+                padding: 0 1rem 1rem;
+                color: #cccccc;
+            }
+
+            footer {
+                background-color: #0d0d1a;
+                padding: 2rem;
+                text-align: center;
+                border-top: 3px solid #ff9900;
+                margin-top: 2rem;
+            }
+
+            footer p {
+                margin-bottom: 1rem;
+            }
+
+            .contact-info {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                flex-wrap: wrap;
+                margin-top: 1rem;
+            }
+
+            .contact-item {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .contact-item i {
+                color: #ff9900;
+            }
+
+            @media (max-width: 768px) {
+                header {
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+
+                nav ul {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .hero h1 {
+                    font-size: 2.2rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="logo">
+                <i class="fas fa-mountain"></i>
+                <h1>MiningPro Equipment</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="equipment">Equipment</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <h1>Heavy Duty Mining Equipment</h1>
+                <p>We provide the most reliable and efficient mining machinery for surface and underground operations worldwide. Our equipment is built to withstand the toughest conditions.</p>
+                <a href="#equipment" class="btn">View Our Equipment</a>
+            </section>
+
+            <section class="equipment" id="equipment">
+                <h2>Our Mining Equipment</h2>
+                <div class="equipment-grid">
+                    <article class="equipment-card">
+                        <img src="https://images.unsplash.com/photo-1577223625818-75bc1f2ac0e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Large mining excavator">
+                        <h3>Haul Trucks</h3>
+                        <p>Ultra-class haul trucks with payload capacities up to 400 tons for efficient material transport.</p>
+                    </article>
+
+                    <article class="equipment-card">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHxfA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Drilling rig">
+                        <h3>Drilling Rigs</h3>
+                        <p>Advanced drilling equipmentfor exploration, blast hole drilling, and underground operations.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <p>Contact us for equipment sales, rentals, and support</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+260 (571) 232-1122</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>sales@miningpro.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-market-alt"></i>
+                    <span>Slowezi, Northwersten Province</span>
+                </div>
+            </div>
+            <p style="margin-top: 1.5rem;">&copy; 2025 MiningPro Equipment. All rights reserved</p>
+        </footer>
+    </body>
+</html>
