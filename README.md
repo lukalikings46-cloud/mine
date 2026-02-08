@@ -3,7 +3,7 @@
 **Name:** kings lukali
 **ID:** 2502395592
 **Course:** Interactive Website Development
-**Repository:** <https://github.com/lukalikings46/kings-lukali-assignment> 
+**Repository:** <https://github.com/lukalikings46-cloud/mine> 
 
 ##Project Overview
 
@@ -170,5 +170,6 @@ Version control is crucial for web development because:
 ---
 
 *This project fulfills all technical requirements including 25+ HTML elements, 15+ HTML attributes, semantic structure, and proper GitHub implementation.*
+
 
 
