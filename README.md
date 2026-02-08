@@ -1,3 +1,13 @@
+# King's MiningPro Equipment Website
+
+**Name:** kings lukali
+**ID:** 2502395592
+**Course:** Interactive Website Development
+**Repository:** <https://github.com/lukalikings46/kings-lukali-assignment> 
+
+##Project Overview
+
+A fully responsive miningpro equipment website built with semantic HTML. Implements 25 HTML elements and 15 attributes.
 
 ## Features
 - Responsive design that works on mobile, tablet, and desktop
@@ -91,12 +101,13 @@ Before coding, I:
 - `git push origin main` - Push to GitHub
 
 **Commit strategy:**
-I made 5 commits with the following strategy:
+I made 7 commits with the following strategy:
 1. Initial commit with basic structure
 2. Added header and navigation
-3. Added equipment showcase
-4. Added footer and contact info
-5. Final polish and documentation
+3. Added hero section
+4. Added equipment showcase
+5. Added footer and contact info
+6. Final polish and documentation
 
 Commit messages followed the convention: `[Feature/Refactor/Fix]: Brief description`
 
@@ -159,4 +170,5 @@ Version control is crucial for web development because:
 ---
 
 *This project fulfills all technical requirements including 25+ HTML elements, 15+ HTML attributes, semantic structure, and proper GitHub implementation.*
+
 
